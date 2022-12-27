@@ -7,6 +7,7 @@ Admin commands:
 /caseadmin add <player> <count> - add cases to the player
 /caseadmin take <player> <count> - Take the cases from the player
 /caseadmin set <player> <count> - set cases to the player
+/caseadmin setcase - set the case position
 /caseadmin help - help
 
 Player commands:
