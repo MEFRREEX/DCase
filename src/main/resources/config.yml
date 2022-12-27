@@ -1,0 +1,34 @@
+commands:
+  case:
+    name: "case"
+    description: "Case"
+    aliases: ["dc"]
+
+  case-admin:
+    name: "caseadmin"
+    description: "Case Admin"
+    aliases: ["dca"]
+
+reward-placeholders:
+  group: "[0]"
+  money: "[0][1]"
+  cases: "[0] cases"
+
+
+rewards:
+  - "money:199"
+  - "money:295"
+  - "money:345"
+
+  - "case:1"
+  - "case:2"
+  - "case:3"
+
+  - "group:knight"
+  - "group:legend"
+  - "group:ultra"
+  - "group:king"
+  - "group:elite"
+
+  - "command:player:me I opened the case!"
+  - "command:console:say Hello %player%"

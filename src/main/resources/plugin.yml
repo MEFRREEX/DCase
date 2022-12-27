@@ -1,0 +1,6 @@
+name: ${project.name}
+version: 2.2
+api: 1.0.8
+main: theoni.dcase.DCase
+depend:
+  - FormConstructor

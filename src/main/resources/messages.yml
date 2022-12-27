@@ -1,0 +1,51 @@
+no-permission: "§cYou do not have permission to execute this command!"
+in-game: "§cUse this command only in the game!"
+already-opening: "§cYou are already opening the case, wait until the opening is finished"
+
+# [0] - Command
+usage: "Usage: /[0] help"
+
+# [0] - Player, [1] - Count
+no-cases: "§6You don't have any cases to open.\n§fYou can purchase them on our website at https://yoursite.com"
+dont-have-that-many-cases: "§6You don't have that many cases.\n§fYou can purchase them on our website at https://yoursite.com"
+
+case-added: "§aYou have successfully added [1] cases to the [0]!"
+case-added-player: "§aYou have been successfully given [1] cases!"
+
+case-taken: "§cYou have successfully taken [1] cases to the [0]!"
+case-taken-player: "§cYou had [1] cases taken from you!"
+
+case-setted: "§aYou have successfully set [1] cases to the [0]!"
+case-setted-player: "§eYour case balance has been set to [1]!"
+
+case-pay: "§aYou successfully gave [1] cases to player [0]!"
+case-pay-player: "Player [0] gave you [1] cases!"
+
+# [0] - Count
+case-balance: "You have [0] cases."
+
+
+title-title-opening: "§l§6Case"
+title-subtitle-opening: "§r§6opening"
+
+# [0] - Player, [1] - Reward placeholder
+title-title-opened: "§l§6You've been dropped"
+title-subtitle-opened: "§r§e[0]"
+
+broadcast: "§dPlayer §b[0] §dopened the case and received §b[1]!\n§7Do you want to try your luck, too? §fBuying cases at https://yoursite.com\n"
+
+
+case-position: "Click on the block to set the position."
+case-position-setted: "The position of the case is set and saved!"
+
+
+# [0] - Command
+help-add: "/[0] add <player> <count> - add cases to the player"
+help-take: "/[0] take <player> <count> - Take the cases from the player"
+help-set: "/[0] set <player> <count> - set cases to the player"
+
+help-open: "/[0] open - open the case"
+help-pay: "/[0] pay <player> <count> - send the case to the player"
+help-cases: "/[0] cases - find out how many cases you have"
+
+help-help: "/[0] help - help"
