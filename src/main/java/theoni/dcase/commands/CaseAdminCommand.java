@@ -34,7 +34,7 @@ public class CaseAdminCommand extends Command {
 
     @Override
     public boolean execute(CommandSender sender, String label, String[] args) {
-        if (!sender.hasPermission("case.admin")) {
+        if (!sender.hasPermission("dcase.admin")) {
             sender.sendMessage(translation.get("no-permission"));
             return false;
         }
@@ -97,6 +97,7 @@ public class CaseAdminCommand extends Command {
                     translation.get("help-add", cmd) + "\n" + 
                     translation.get("help-take", cmd) + "\n" +
                     translation.get("help-set", cmd) + "\n" + 
+                    translation.get("help-setcase", cmd) + "\n" + 
                     translation.get("help-help", cmd));
                 break;
 

@@ -32,7 +32,7 @@ public class CaseCommand extends Command {
 
     @Override
     public boolean execute(CommandSender sender, String label, String[] args) {
-        if (!sender.hasPermission("case.player")) {
+        if (!sender.hasPermission("dcase.player")) {
             sender.sendMessage(translation.get("no-permission"));
             return false;
         }

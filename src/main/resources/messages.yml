@@ -43,6 +43,7 @@ case-position-setted: "The position of the case is set and saved!"
 help-add: "/[0] add <player> <count> - add cases to the player"
 help-take: "/[0] take <player> <count> - Take the cases from the player"
 help-set: "/[0] set <player> <count> - set cases to the player"
+help-setcase: "/[0] set <player> <count> - set cases to the player"
 
 help-open: "/[0] open - open the case"
 help-pay: "/[0] pay <player> <count> - send the case to the player"

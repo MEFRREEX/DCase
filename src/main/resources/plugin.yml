@@ -4,3 +4,9 @@ api: 1.0.8
 main: theoni.dcase.DCase
 depend:
   - FormConstructor
+
+permissions:
+  dcase.player:
+    default: true
+  dcase.admin:
+    default: op
