@@ -28,8 +28,8 @@ Full localization in the `messages.yml` file
 Setting up prizes and commands in the `config.yml` file
 
 # API:
-```
-DCase api = new DCase().getInstance();
+```java
+DCase api = new DCase.getInstance();
 // Example:
 api.getCaseManager.add(player, 1);
 ```
